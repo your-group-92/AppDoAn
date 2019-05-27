@@ -8,9 +8,7 @@
 * git add .
 ------------------------<br/>
 * git commit -m <comment><br/>
-*git push --set-upstream origin Cuong
-<br/>
-<br/>
+* git push --set-upstream origin Cuong <br/><br/>
 # Update 27-5-2019 11:10PM <br/>
 * Add list_audio.java <br/>
 * Add activity_list_audio.xml <br/>

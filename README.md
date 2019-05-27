@@ -1,11 +1,11 @@
-# AppDoAn
+# AppDoAn<br/>
 ------Creater Branch------<br/>
 * git branch Cuong <br/>
 * git push origin Cuong <br/>
 --------------------------<br/>
 * git checkout Cuong <br/>
 ------Add all file------<br/>
-* git add .
+* git add .<br/>
 ------------------------<br/>
 * git commit -m <comment><br/>
 * git push --set-upstream origin Cuong <br/><br/>

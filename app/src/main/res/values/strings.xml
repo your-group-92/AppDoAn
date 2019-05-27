@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AppGiaiTri</string>
+    <string name="app_name">Thư giản tổng hợp</string>
+
+    <string name="btn_music">DS Nghe nhạc</string>
+    <string name="btn_audio">DS Audio truyện</string>
+    <string name="btn_about">Thông tin</string>
+    <string name="btn_exit">Thoát</string>
 </resources>

@@ -233,7 +233,6 @@ public class PlayMusic extends AppCompatActivity {
                         if (mediaPlayer.isPlaying()) {
 
                             mediaPlayer.stop();
-
                         }
 
                         KhoiTao();

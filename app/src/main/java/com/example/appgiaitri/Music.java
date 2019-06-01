@@ -33,6 +33,7 @@ public class Music extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
         lv_song = (ListView) findViewById(R.id.lv_song);
 

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
         btnmusic = (Button) findViewById(R.id.btnmusic);
         btnmusic.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnabout = (Button) findViewById(R.id.btnabout);
+        btnabout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                info(v);
+            }
+        });
+
         btnexit = (Button)findViewById(R.id.btnexit);
         btnexit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +68,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void info(View v) {
+
+        AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+        dlgAlert.setMessage("AppVersion: V1.0" + System.getProperty("line.separator") +
+                            "Update: 1-6-2019" + System.getProperty("line.separator") +
+                            "Author: by Cuong & Huy");
+        dlgAlert.setTitle("Thư giản tổng hợp");
+        dlgAlert.setPositiveButton("OK", null);
+        dlgAlert.setCancelable(true);
+        dlgAlert.create().show();
+    }
     public void requestStoragePermission(){
 
         Dexter.withActivity(MainActivity.this)

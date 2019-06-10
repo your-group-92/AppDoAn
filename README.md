@@ -22,7 +22,7 @@
 
 # Hướng dẫn sử dụng App
 * Sau khi cài đặt ứng dụng có phần dao diện như sau:<br/><br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/list.jpg" alt="list.jpg" border="0">
+<img src="https://www.upsieutoc.com/images/2019/06/10/list.jpg" witdh="50" height="200" alt="list.jpg" border="0">
 <br/>
 <br/>
 <br/>

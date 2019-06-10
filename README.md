@@ -22,10 +22,31 @@
 
 <img src="https://www.upsieutoc.com/images/2019/06/10/reg.jpg" width="240" height="auto"><br/>
 
-* Mở DS Nghe nhạc tương tự như các ứng dụng khác bạn cần cho phép ứng dụng truy cập vào SDcard để lấy list nhạc<br/>
-bạn có thể ấn chấp nhận để ứng dụng load dữ liệu nhạc của bạn<br/>
-Bạn có thể chọn 1 bài nhạc bất kì để thưởng thức !<br/>
+* Sau khi đăng kí xong thì tự động sẽ chuyển qua màn hình đăng nhập.<br/>
+
+* Sau khi đăng nhập xong thì tự động sẽ chuyển về lại màn hình chính.<br/>
+
+* Khi click vào DS Nghe Nhạc.<br/>
+
+<img src="image/cho-phep-truy-cap-bo-nho.jpg" width="240" height="auto"><br/>
+
+* App sẽ hỏi người dùng về sự cho phép truy cập vào bộ nhớ.<br/>
+
+* Nếu người dùng chọn "TỪ CHỐI", người dùng sẽ không truy cập vào DS Nghe Nhạc.<br/>
+
+* Nếu người dùng chọn "CHO PHÉP", DS Nghe Nhạc sẽ dùng những bài hát có trong bộ nhớ và đưa vào App.<br/>
+
 <img src="image/giao-dien-bai-hat.jpg" width="240" height="auto"/>
+
+* Người dùng chọn bài hát bất kì để thưởng thức.<br/>
+
+<img src="image/giao-dien-phat-nhac.jpg" width="240" height="auto"><br/>
+
+* Ở giao diện này có 4 nút prev, next, play và stop.<br/>
+
+* Khi người dùng chọn bài hát thì tự động sẽ phát nhạc, vì thế trên giao diện sẽ hiện nút pause.<br/>
+
+
 
 # Update 27-5-2019 11:10PM <br/>
 * Add list_audio.java <br/>

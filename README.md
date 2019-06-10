@@ -7,19 +7,19 @@
 
 # Hướng dẫn sử dụng App
 * Sau khi cài đặt ứng dụng có phần dao diện như sau:<br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/main.jpg" width="220" height="400" alt="main.jpg" border="0">
+<img src="https://www.upsieutoc.com/images/2019/06/10/main.jpg" width="240" height="426"/>
 <br/>
 * Bên trái trên màng hình có dấu 3 chấm nó là cái menu chứ liên kết đăng nhập:<br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/logi.jpg" width="220" height="400" alt="logi.jpg" border="0">
+<img src="https://www.upsieutoc.com/images/2019/06/10/logi.jpg" width="240" height="426"/>
 <br/>
 * Khi vào phần dao diện đăng nhập nếu bạn chưa có tài khoảng bản có thể đăng khí <br/>
 * bằng cách ấn link <color=green>Register</color><br/><br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/reg.jpg" width="220" height="400" alt="reg.jpg" border="0">
+<img src="https://www.upsieutoc.com/images/2019/06/10/reg.jpg" width="240" height="426"/>
 <br/>
 * Trở về giao diện chính gốm có 4 nút là: DS Nghe nhạc, Thông tin, Thoát:
 * Mở DS Nghe nhạc tương tự như các ứng dụng khác bạn cần cho phép ứng dụng truy cập vào SDcard để lấy list nhạc<br/><br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/version.jpg" width="220" height="400" alt="version.jpg" border="0"><br/>
+<img src="https://www.upsieutoc.com/images/2019/06/10/version.jpg" width="240" height="426"/><br/>
 *--*--*--*<br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/list.jpg" width="220" height="400" alt="list.jpg" border="0"><br/>
+<img src="https://www.upsieutoc.com/images/2019/06/10/list.jpg" width="240" height="426"/><br/>
 Bạn có thể chọn 1 bài nhạc bất kì để thưởng thức !
 

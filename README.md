@@ -22,7 +22,7 @@
 
 # Hướng dẫn sử dụng App
 * Sau khi cài đặt ứng dụng có phần dao diện như sau:<br/><br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/main.jpg" witdh="720" height="1280" alt="main.jpg" border="0">
+<img src="https://www.upsieutoc.com/images/2019/06/10/main.jpg" witdh="220" height="480" alt="main.jpg" border="0">
 <br/>
 * Bên trái trên màng hình có dấu 3 chấm nó là cái menu chứ liên kết đăng nhập:<br/><br/>
 <img src="https://www.upsieutoc.com/images/2019/06/10/logi.jpg" witdh="720" height="1280" alt="logi.jpg" border="0">

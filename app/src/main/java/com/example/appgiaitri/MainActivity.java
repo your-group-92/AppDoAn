@@ -33,13 +33,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 
         btnmusic = (Button) findViewById(R.id.btnmusic);
         btnmusic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 requestStoragePermission();
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
         });
 
@@ -55,6 +55,17 @@ public class MainActivity extends AppCompatActivity {
         btnexit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Khoi tao lai Activity main
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+
+                // Tao su kien ket thuc app
+                Intent startMain = new Intent(Intent.ACTION_MAIN);
+                startMain.addCategory(Intent.CATEGORY_HOME);
+                startActivity(startMain);
+                finish();
+
+                // Tat tien trinh nhac dang chay
                 System.exit(0);
             }
         });
@@ -149,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mndangnhap:
                 Intent dangnhap =new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(dangnhap);
+                finish();
         }
 
         return super.onOptionsItemSelected(item);

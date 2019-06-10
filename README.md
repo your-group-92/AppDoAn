@@ -33,7 +33,7 @@
 <br/>
 * Trở về giao diện chính gốm có 4 nút là: DS Nghe nhạc, Thông tin, Thoát:
 * Mở DS Nghe nhạc tương tự như các ứng dụng khác bạn cần cho phép ứng dụng truy cập vào SDcard để lấy list nhạc<br/><br/>
-<img src="https://www.upsieutoc.com/images/2019/06/10/version.jpg" witdh="220" height="480" alt="version.jpg" border="0"><br/><br/>
+<img src="https://www.upsieutoc.com/images/2019/06/10/version.jpg" witdh="220" height="480" alt="version.jpg" border="0"><br/>
 <img src="https://www.upsieutoc.com/images/2019/06/10/list.jpg" witdh="220" height="480" alt="list.jpg" border="0"><br/><br/>
 Bạn có thể chọn 1 bài nhạc bất kì để thưởng thức !
 

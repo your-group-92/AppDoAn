@@ -20,4 +20,4 @@
 * Make effect move to the pages <br/>
 * Modify and Sort PageView: "activity_music.xml", "activity_play_music.xml", "song_layout.xml" <br/>
 
-#Hướng dẫn sử dụng App
+# Hướng dẫn sử dụng App

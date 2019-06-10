@@ -1,12 +1,12 @@
 # Hướng dẫn sử dụng App
 
-* Sau khi cài đặt ứng dụng có phần dao diện như sau:<br/><br/>
+* Sau khi cài đặt ứng dụng có phần giao diện như sau:<br/><br/>
 
 <img src="image/giao-dien-chinh.jpg" width="240" height="auto"/><br/>
 
 * Giao diện chính gốm có 3 nút là: DS Nghe nhạc, Thông tin và Thoát.<br/>
 
-* Bên phải góc trên cùng màng hình có dấu 3 chấm, là menu chứa liên kết đăng nhập:<br/><br/>
+* Bên phải góc trên cùng màn hình có dấu 3 chấm, là menu chứa liên kết đăng nhập:<br/><br/>
 
 <img src="image/giao-dien-menu.jpg" width="240" height="auto"/><br/>
 

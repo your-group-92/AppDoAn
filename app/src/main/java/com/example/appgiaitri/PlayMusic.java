@@ -7,6 +7,8 @@ import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -41,7 +43,7 @@ public class PlayMusic extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_music);
-
+        overridePendingTransition(R.anim.slider_down,R.anim.slider_up);
         if(mediaPlayer != null)
         {
             mediaPlayer.stop();
@@ -256,4 +258,29 @@ public class PlayMusic extends AppCompatActivity {
         }, 100);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_example, menu);
+        return true;
+    }
+
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
+        MenuItem mn_dangnhap = menu.findItem(R.id.mndangnhap);
+        mn_dangnhap.setVisible(false);
+
+        MenuItem mn_exit = menu.findItem(R.id.mn_exit);
+        mn_exit.setVisible(true);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()) {
+            case R.id.mn_exit:
+                Intent back_frm = new Intent(PlayMusic.this, Music.class);
+                startActivity(back_frm);
+                overridePendingTransition(R.anim.slider_down,R.anim.slider_up);
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

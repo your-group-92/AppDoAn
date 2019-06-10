@@ -14,6 +14,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -83,5 +85,31 @@ public class Music extends AppCompatActivity {
 
     public void toast(String text) {
         Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_example, menu);
+        return true;
+    }
+
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
+        MenuItem mn_dangnhap = menu.findItem(R.id.mndangnhap);
+        mn_dangnhap.setVisible(false);
+
+        MenuItem mn_exit = menu.findItem(R.id.mn_exit);
+        mn_exit.setVisible(true);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()) {
+            case R.id.mn_exit:
+                Intent back_frm = new Intent(Music.this, MainActivity.class);
+                startActivity(back_frm);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

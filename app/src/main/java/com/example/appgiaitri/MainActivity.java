@@ -27,30 +27,19 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnmusic, btnaudio, btnabout, btnexit;
+    Button btnmusic, btnabout, btnexit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
         btnmusic = (Button) findViewById(R.id.btnmusic);
         btnmusic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 requestStoragePermission();
-
-            }
-        });
-
-        btnaudio = (Button) findViewById(R.id.btnaudio);
-        btnaudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent listaudio = new Intent(MainActivity.this,list_audio.class);
-                startActivity(listaudio);
-
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
         });
 
@@ -69,14 +58,15 @@ public class MainActivity extends AppCompatActivity {
                 System.exit(0);
             }
         });
+
     }
 
     public void info(View v) {
 
         AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
         dlgAlert.setMessage("AppVersion: V1.0" + System.getProperty("line.separator") +
-                            "Update: 1-6-2019" + System.getProperty("line.separator") +
-                            "Author: by Cuong & Huy");
+                "Update: 1-6-2019" + System.getProperty("line.separator") +
+                "Author: by Cuong & Huy");
         dlgAlert.setTitle("Thư giản tổng hợp");
         dlgAlert.setPositiveButton("OK", null);
         dlgAlert.setCancelable(true);
@@ -160,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent dangnhap =new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(dangnhap);
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

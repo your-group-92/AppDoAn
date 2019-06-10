@@ -3,6 +3,8 @@ package com.example.appgiaitri;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -53,5 +55,29 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_example, menu);
+        return true;
+    }
+
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
+        MenuItem mn_dangnhap = menu.findItem(R.id.mndangnhap);
+        mn_dangnhap.setVisible(false);
+
+        MenuItem mn_exit = menu.findItem(R.id.mn_exit);
+        mn_exit.setVisible(true);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()) {
+            case R.id.mn_exit:
+                Intent back_frm = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(back_frm);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

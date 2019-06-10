@@ -6,14 +6,22 @@
 
 * Giao diện chính gốm có 3 nút là: DS Nghe nhạc, Thông tin và Thoát.<br/>
 
-* Bên trái trên màng hình có dấu 3 chấm, là menu chứa liên kết đăng nhập:<br/><br/>
+* Bên phải góc trên cùng màng hình có dấu 3 chấm, là menu chứa liên kết đăng nhập:<br/><br/>
 
 <img src="image/giao-dien-menu.jpg" width="240" height="auto"/><br/>
 
+* Click vào nút đăng nhập thì sẽ qua trang mới như sau
+
 <img src="https://www.upsieutoc.com/images/2019/06/10/logi.jpg" width="240" height="auto" ><br/>
-* Khi vào phần dao diện đăng nhập nếu bạn chưa có tài khoảng bản có thể đăng khí <br/>
-* bằng cách ấn link Register<br/>
+
+* Nếu chúng ta không muốn đăng nhập thì click vào nút "trở về" ở phía bên phải góc trên cùng màn hình.<br/>
+
+* Nếu chúng ta chưa có tài khoản thì click vào "Register" phía dưới nút LOGIN.<br/>
+
+* Và sau đây là giao diện màn hình đăng ký.<br/>
+
 <img src="https://www.upsieutoc.com/images/2019/06/10/reg.jpg" width="240" height="auto"><br/>
+
 * Mở DS Nghe nhạc tương tự như các ứng dụng khác bạn cần cho phép ứng dụng truy cập vào SDcard để lấy list nhạc<br/>
 bạn có thể ấn chấp nhận để ứng dụng load dữ liệu nhạc của bạn<br/>
 Bạn có thể chọn 1 bài nhạc bất kì để thưởng thức !<br/>

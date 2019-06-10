@@ -5,7 +5,7 @@
     android:id="@+id/layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/first"
+    android:background="@drawable/musicwp"
     tools:context=".MainActivity">
 
 
@@ -30,12 +30,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_music" />
-
-        <Button
-            android:id="@+id/btnaudio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_audio" />
 
         <Button
             android:id="@+id/btnabout"

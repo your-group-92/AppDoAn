@@ -13,7 +13,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".list_audio" />
         <activity android:name=".PlayMusic" />
         <activity android:name=".Music" />
         <activity android:name=".MainActivity">

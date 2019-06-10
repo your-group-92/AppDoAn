@@ -277,9 +277,7 @@ public class PlayMusic extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()) {
             case R.id.mn_exit:
-                Intent back_frm = new Intent(PlayMusic.this, Music.class);
-                startActivity(back_frm);
-                overridePendingTransition(R.anim.slider_down,R.anim.slider_up);
+                startActivity(new Intent(getApplicationContext(),Music.class));
         }
         return super.onOptionsItemSelected(item);
     }

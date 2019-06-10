@@ -35,7 +35,8 @@ public class Music extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
-        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+        //overridePendingTransition(R.anim.slider_down,R.anim.slider_up);
 
         lv_song = (ListView) findViewById(R.id.lv_song);
 
@@ -56,7 +57,6 @@ public class Music extends AppCompatActivity {
         lv_song.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
                 startActivity(new Intent(getApplicationContext(),PlayMusic.class).putExtra("pos",position).putExtra("songlist",mySongs));
             }
         });
@@ -106,9 +106,7 @@ public class Music extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()) {
             case R.id.mn_exit:
-                Intent back_frm = new Intent(Music.this, MainActivity.class);
-                startActivity(back_frm);
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }

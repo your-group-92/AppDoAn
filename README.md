@@ -2,7 +2,7 @@
 
 * Sau khi cài đặt ứng dụng có phần dao diện như sau:<br/><br/>
 
-<img src="https://www.upsieutoc.com/images/2019/06/10/main.jpg" width="240" height="auto"/><br/>
+<img src="image/giao-dien-chinh.jpg" width="240" height="auto"/><br/>
 
 * Giao diện chính gốm có 3 nút là: DS Nghe nhạc, Thông tin và Thoát.<br/>
 
@@ -46,7 +46,11 @@
 
 * Khi người dùng chọn bài hát thì tự động sẽ phát nhạc, vì thế trên giao diện sẽ hiện nút pause.<br/>
 
+* Tiếp theo, ở giao diện màn hình chính nút Thông Tin sẽ cho người dùng biết thông tin về App.<br/>
 
+<img src="image/giao-dien-thong-tin.jpg" width="240" height="auto"><br/>
+
+* Và nút Thoát cho phép người dùng thoát App.
 
 # Update 27-5-2019 11:10PM <br/>
 * Add list_audio.java <br/>

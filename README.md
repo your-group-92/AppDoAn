@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng App
+# Hướng dẫn sử dụng App Nghe Nhạc Offline
 
 * Sau khi cài đặt ứng dụng có phần giao diện như sau:<br/><br/>
 

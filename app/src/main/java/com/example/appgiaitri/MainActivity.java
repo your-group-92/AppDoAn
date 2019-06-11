@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         dlgAlert.setMessage("AppVersion: V1.0" + System.getProperty("line.separator") +
                 "Update: 1-6-2019" + System.getProperty("line.separator") +
                 "Author: by Cuong & Huy");
-        dlgAlert.setTitle("Thư giản tổng hợp");
+        dlgAlert.setTitle("Nghe nhạc offline");
         dlgAlert.setPositiveButton("OK", null);
         dlgAlert.setCancelable(true);
         dlgAlert.create().show();

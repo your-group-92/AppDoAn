@@ -29,18 +29,29 @@
             android:id="@+id/btnmusic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_music" />
+            android:background="@drawable/custom_button"
+            android:text="@string/btn_music"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/btnabout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_about" />
+            android:text="@string/btn_about"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="15dp"/>
 
         <Button
             android:id="@+id/btnexit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_exit" />
+            android:text="@string/btn_exit"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -10,14 +10,16 @@
 
 
     <LinearLayout
-        android:layout_width="295dp"
-        android:layout_height="209dp"
+        android:layout_width="179dp"
+        android:layout_height="483dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#B0242424"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,20 +29,44 @@
 
         <Button
             android:id="@+id/btnmusic"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/imgmusic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="165dp"
             android:layout_height="wrap_content"
-            android:text="@string/btn_music" />
+            android:text="@string/btn_music"
+            android:textColor="#fff"
+            android:textSize="26sp" />
 
         <Button
             android:id="@+id/btnabout"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/imgabout" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:text="@string/btn_about" />
+            android:text="@string/btn_about"
+            android:textColor="#fff"
+            android:textSize="26sp" />
 
         <Button
             android:id="@+id/btnexit"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/imgexit" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:text="@string/btn_exit" />
+            android:text="@string/btn_exit"
+            android:textColor="#fff"
+            android:textSize="26sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

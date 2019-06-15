@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/custom_button"
             android:text="@string/btn_music"
+            android:textSize="20sp"
             android:textAllCaps="false"
             android:textColor="#ffffff" />
 
@@ -39,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_about"
+            android:textSize="20sp"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:background="@drawable/custom_button"
@@ -49,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_exit"
+            android:textSize="20sp"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:background="@drawable/custom_button"
